@@ -5,6 +5,7 @@ import Home from "../../components/Home/Home";
 
 import NotFound from "../../components/NotFound/NotFound";
 import Quizes from "../../components/Quizes/Quizes";
+import Statics from "../../components/Statics/Statics";
 
 export const router= createBrowserRouter([
     {
@@ -20,7 +21,8 @@ export const router= createBrowserRouter([
                 element:<Blog/>
             },{
                 path:'/statics',
-                element: <h2>this is chirt pages</h2>
+                loader:()=>fetch('https://openapi.programming-hero.com/api/quiz'),
+                element: <Statics/>
             }
             ,{
                 path:'/quiz/:id',
