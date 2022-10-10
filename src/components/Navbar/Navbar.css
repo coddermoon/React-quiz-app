@@ -11,6 +11,10 @@
    
 }
 
+.logo img{
+    height: 45px;
+}
+
 .links a{
     color: #fff;
     font-size: 1.3rem;
@@ -19,7 +23,7 @@
     transition: .3s;
 }
 .links a:hover{
-    color: #ff9900;
+    color: #ED3680;
 }
 
 .content{
