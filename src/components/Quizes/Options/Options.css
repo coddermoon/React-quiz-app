@@ -9,5 +9,14 @@
 .element{
     text-align: left;
     border: 2px solid #ddd;
-    padding: 10px;border-radius: 10px;
+    padding:30px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:all ease-in-out .3s;
+}
+
+.element:hover{
+    background: lightskyblue;
+    color: #fff;
+    font-weight: 500;
 }

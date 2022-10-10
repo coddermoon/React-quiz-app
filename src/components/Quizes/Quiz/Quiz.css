@@ -11,3 +11,8 @@
 .quiz-cart{
     text-align: center;
 }
+
+.quiz-cart p{
+  font-weight: 600;
+  font-size: 1.4rem;
+}
