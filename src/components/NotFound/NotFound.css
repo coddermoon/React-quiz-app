@@ -1,0 +1,43 @@
+.notFound {
+    background-image: linear-gradient(to right top, #9399f5, #62a4f5, #2faceb, #00b0da, #26b2c5);
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   
+}
+
+.error{
+    width: 50%;
+
+    background: #fff;
+    box-shadow: 2px 4px 10px #ddd;
+    text-align: center;
+    padding: 20px;
+}
+
+.error .err{
+    background: linear-gradient(to right top, #9399f5, #07203f, #2faceb, #00b0da, #94b6f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+  font-size: 7rem;
+  
+}
+
+.bth{
+    background: linear-gradient(to right top, #9399f5, #62a4f5, #2faceb, #00b0da, #26b2c5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+   
+}
+
+.msg{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
