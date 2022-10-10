@@ -1,0 +1,13 @@
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin :10px 0;
+   
+}
+
+.element{
+    text-align: left;
+    border: 2px solid #ddd;
+    padding: 10px;border-radius: 10px;
+}

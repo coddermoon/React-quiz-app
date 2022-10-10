@@ -7,8 +7,9 @@ const Quiz = ({questionArr}) => {
     return (
         <div className='quiz'>
             <div className="quiz-cart">
+            <div dangerouslySetInnerHTML={{__html: question}}></div>
                 
-           <h3>Question :{question}</h3>
+           {/* <h3>Question :{question}</h3> */}
            <div className="options">
 {
     options.map(option=><Options
