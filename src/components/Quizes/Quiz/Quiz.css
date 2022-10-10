@@ -1,0 +1,13 @@
+.quiz-cart {
+  background: #fff;
+  box-shadow: 5px 5px 10px lightblue;
+  width: 60%;
+ padding: 10px;
+  min-height: 100px;
+  margin:50px  auto;
+  
+}
+
+.quiz-cart{
+    text-align: center;
+}
