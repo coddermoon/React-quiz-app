@@ -1,0 +1,27 @@
+.cart{
+    background: #fff;
+    box-shadow: 5px 5px 10px lightblue;
+}
+
+.cart img{
+    max-width:90% ;
+}
+
+.cart-info{
+padding: 10px 0;
+margin: 10px;
+}
+.startBtn{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background: #0056D2;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.startBtn:hover{
+    background: blueviolet;
+}
