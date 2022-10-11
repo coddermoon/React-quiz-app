@@ -24,7 +24,7 @@ const Quizes = () => {
 
 
 <div className="button">
-<button className='startBtn '>submit</button> 
+<button className='startBtn'>submit</button> 
 </div>
            </div>
           

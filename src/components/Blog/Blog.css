@@ -1,0 +1,24 @@
+.blog{
+    align-items: center;
+    margin: 20px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.blog-title h2{
+    margin: 10px auto;
+}
+
+
+
+.btn-group {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    
+    min-height: 125px;
+    align-items: center;
+}
