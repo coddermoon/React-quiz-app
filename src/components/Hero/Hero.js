@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="hero-content">
               <h2 className='title2'>Take A <span className='violet'>Challange</span> </h2>
               <h1 className='title1'>Justify Yourself</h1>
-              <p className='hero-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum reiciendis laborum nostrum dolorem aut veniam consequatur delectus tempora reprehenderit maxime.</p>
+              <p className='hero-p'>Quiz is one of the most essential thing for our dailly Life as a Student,looking for any job you need to represent it so, let's start build as a skillfull personality</p>
              <div className='btnDiv'>
              <button className='startBtn'>Take A Test</button>
              </div>
