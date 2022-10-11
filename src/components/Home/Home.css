@@ -18,3 +18,11 @@
     color: darkgray;
     font-size: 2rem;
 }
+
+/* max-width 792px */
+
+@media (max-width:792px) {
+    .carts{
+        grid-template-columns: repeat(2 ,1fr);  
+    }
+}

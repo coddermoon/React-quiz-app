@@ -35,3 +35,23 @@
     color: darkslategray;
     margin-top: 10px;
 }
+.hero-pic {
+    display: flex;
+}
+
+
+/* media query */
+
+
+
+
+@media (max-width:600px) {
+    .hero{
+        grid-template-columns: auto;  
+        height: auto;
+    }
+    .hero-content{
+        align-items: center;
+    }
+    
+}

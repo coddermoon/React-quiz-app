@@ -17,8 +17,8 @@ const Quiz = ({questionArr}) => {
     // show ansert button handle
 
     const showBtnHandle = (ans)=>{
-        console.log(ans)
-        // alert(`correct answer is  :`,ans)
+    
+        alert(ans)
 
     }
     
