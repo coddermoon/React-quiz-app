@@ -14,7 +14,7 @@ const Statics = () => {
        <div className="cart-content">
         <div className='chart-container'>
             <h2>Quiz analysis</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique, nostrum dolore at obcaecati possimus eaque optio labore omnis impedit architecto in ullam dolor nihil ea explicabo vel sapiente, dolores quo hic tenetur ex cupiditate et accusamus? Sint, quo? Assumenda, quod recusandae! Corporis ad voluptas tenetur rerum, reiciendis culpa! Iste!</p>
+            <p>Quiz analysis show which kinds of quiz Of all every topics... And show this Data visually</p>
         </div>
          <div>
          <ResponsiveContainer width="100%" height={400}>

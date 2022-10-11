@@ -53,5 +53,12 @@
     .hero-content{
         align-items: center;
     }
+    .title2{
+        font-size: 1.9rem;
+    }
+    
+    .title1{
+        font-size: 1.3rem;
+    }
     
 }
