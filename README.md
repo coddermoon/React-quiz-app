@@ -6,5 +6,5 @@
 
 - using React, React Router DoM,Recharts,SweetAlert2 And FontAwesome
 - Single Page Quiz  Application,Exam Feature,and Get Result
--Question Analytics Using WonderFull Charts,
--Amazing UI Design
+- Question Analytics Using WonderFull Charts 
+- Amazing UI Design
