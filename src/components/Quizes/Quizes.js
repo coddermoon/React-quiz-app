@@ -6,7 +6,7 @@ import Quiz from './Quiz/Quiz';
 const Quizes = () => {
     const quizes = useLoaderData().data
     const {name,total,questions}=quizes
-    
+  
     return (
         <div className='quizes'>
 

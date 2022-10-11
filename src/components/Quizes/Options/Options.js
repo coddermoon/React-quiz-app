@@ -1,9 +1,9 @@
 import React from 'react';
 import './Options.css'
 
-const Options = ({option}) => {
+const Options = ({option,handleClick}) => {
     return (
-        <div className='element'>
+        <div onClick={()=>handleClick(option)} className='element'>
           
             {option}
         </div>

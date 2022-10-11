@@ -2,17 +2,41 @@
   background: #fff;
   box-shadow: 5px 5px 10px lightblue;
   width: 60%;
- padding: 10px;
+ padding: 40px 10px;
   min-height: 100px;
   margin:50px  auto;
-  
+  text-align: center;
+  position: relative;
 }
 
-.quiz-cart{
-    text-align: center;
-}
 
-.quiz-cart p{
+
+.quiz-cart p {
   font-weight: 600;
   font-size: 1.4rem;
+  margin-bottom: 37px;
+  margin-top: 32px;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 20px;
+  top: 21px;
+  font-size: 1.1rem;
+  color: rgb(70, 69, 69);
+  transition: all ease-in-out .3s;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.eyeIcon:hover{
+  background: blueviolet;
+ 
+  color: #fff;
+  
+  border-radius: 50%;
 }
