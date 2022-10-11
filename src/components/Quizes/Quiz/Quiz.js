@@ -7,38 +7,9 @@ import './Quiz.css'
 const Quiz = ({questionArr}) => {
     const {question,options,correctAnswer}=questionArr
 
-    let correctAns = 0;
-    let wrongAns = 0;
+
   
-    const handleClick=(option)=>{
-      if (correctAnswer===option) {
-
-
-// calculation
-
-        correctAns= correctAns+1
-
-
-        Swal.fire({
-          position: 'center',
-          icon: 'success',
-          title: 'Correct Ans',
-          showConfirmButton: false,
-          timer: 1500
-        })
-        console.log(correctAns,wrongAns)
-      }else{
-
-        wrongAns= wrongAns+1
-        
-        Swal.fire({
-          icon: 'error',
-          title: 'Oops... Your Choose is Incorrect',
-          text: `Correct Answer is :${correctAnswer}`,
-          
-        })
-      }
-    }
+  
 
     // show ansert button handle
 
@@ -54,7 +25,39 @@ const Quiz = ({questionArr}) => {
         }
       })
 
+   
     }
+
+   
+
+    const handleRadio = (e) =>{
+   const selectedAns =  e.target.value
+   if (selectedAns===correctAnswer) {
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Wow... Correct Answer',
+      showConfirmButton: false,
+      timer: 1500
+    })
+   
+   
+
+   }else{
+  
+    
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: `Correct Ans  :${correctAnswer}`,
+     
+    })
+   }
+
+   
+
+   }
+
     
     
     return (
@@ -68,13 +71,14 @@ const Quiz = ({questionArr}) => {
                 
            {/* <h3>Question :{question}</h3> */}
            <div className="options">
+           
 {
     options.map(option=><Options
     option={option}
     key={option}
     question={question}
    
-     handleClick={handleClick}
+    handleRadio={handleRadio}
 
     />)
 }
