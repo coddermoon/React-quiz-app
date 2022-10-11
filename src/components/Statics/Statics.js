@@ -1,7 +1,7 @@
 import React from 'react';
 import './Statics.css'
 import { useLoaderData } from 'react-router-dom';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip  } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,   } from 'recharts';
 
 
 
@@ -17,9 +17,9 @@ const Statics = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique, nostrum dolore at obcaecati possimus eaque optio labore omnis impedit architecto in ullam dolor nihil ea explicabo vel sapiente, dolores quo hic tenetur ex cupiditate et accusamus? Sint, quo? Assumenda, quod recusandae! Corporis ad voluptas tenetur rerum, reiciendis culpa! Iste!</p>
         </div>
          <div>
-
+         <ResponsiveContainer width="100%" height={400}>
 <AreaChart
-  width={900}
+  width={500}
   height={500}
   data={data}
   margin={{
@@ -35,6 +35,8 @@ const Statics = () => {
   <Tooltip />
   <Area type="monotone" dataKey="total" stroke="#8884d8" fill="#8884d8" />
 </AreaChart>
+</ResponsiveContainer>
+  
 
 </div>
        </div>
