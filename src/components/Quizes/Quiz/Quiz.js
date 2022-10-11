@@ -1,12 +1,12 @@
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import Options from '../Options/Options';
 import './Quiz.css'
 const Quiz = ({questionArr}) => {
     const {question,options,correctAnswer}=questionArr
-
+const [correct,setCorrect] =useState([])
 
   
   
@@ -28,10 +28,13 @@ const Quiz = ({questionArr}) => {
    
     }
 
-   
+
 
     const handleRadio = (e) =>{
    const selectedAns =  e.target.value
+   
+   setCorrect(...correct,selectedAns)
+   
    if (selectedAns===correctAnswer) {
     Swal.fire({
       position: 'center',
@@ -58,7 +61,7 @@ const Quiz = ({questionArr}) => {
 
    }
 
-    
+    console.log( correct.length)
     
     return (
         <div className='quiz'>
