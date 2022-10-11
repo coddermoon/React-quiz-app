@@ -6,9 +6,19 @@ import Options from '../Options/Options';
 import './Quiz.css'
 const Quiz = ({questionArr}) => {
     const {question,options,correctAnswer}=questionArr
+
+    let correctAns = 0;
+    let wrongAns = 0;
   
     const handleClick=(option)=>{
       if (correctAnswer===option) {
+
+
+// calculation
+
+        correctAns= correctAns+1
+
+
         Swal.fire({
           position: 'center',
           icon: 'success',
@@ -16,7 +26,10 @@ const Quiz = ({questionArr}) => {
           showConfirmButton: false,
           timer: 1500
         })
+        console.log(correctAns,wrongAns)
       }else{
+
+        wrongAns= wrongAns+1
         
         Swal.fire({
           icon: 'error',
