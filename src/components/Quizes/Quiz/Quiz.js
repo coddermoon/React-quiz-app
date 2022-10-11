@@ -72,6 +72,8 @@ const Quiz = ({questionArr}) => {
     options.map(option=><Options
     option={option}
     key={option}
+    question={question}
+   
      handleClick={handleClick}
 
     />)

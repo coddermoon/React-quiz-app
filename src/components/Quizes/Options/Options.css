@@ -14,6 +14,11 @@
     cursor: pointer;
     transition:all ease-in-out .3s;
     font-size: 1.3rem;
+    cursor: pointer;
+}
+
+label{
+cursor: pointer;
 }
 
 .element:hover{
