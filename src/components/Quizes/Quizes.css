@@ -2,3 +2,22 @@
     text-align: center;
     margin: 50px;
 }
+
+.quizes{
+    font-family: 'Alkalami', serif;
+}
+
+.button{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.w-btn{
+    width: 200px;
+    height: 40px;
+    font-size: 1.3rem;
+}

@@ -1,6 +1,7 @@
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import Swal from 'sweetalert2';
 import Options from '../Options/Options';
 import './Quiz.css'
 const Quiz = ({questionArr}) => {
@@ -8,9 +9,21 @@ const Quiz = ({questionArr}) => {
   
     const handleClick=(option)=>{
       if (correctAnswer===option) {
-        alert('corrtct answer')
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Correct Ans',
+          showConfirmButton: false,
+          timer: 1500
+        })
       }else{
-        alert('wrong answer')
+        
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops... Your Choose is Incorrect',
+          text: `Correct Answer is :${correctAnswer}`,
+          
+        })
       }
     }
 
@@ -18,7 +31,15 @@ const Quiz = ({questionArr}) => {
 
     const showBtnHandle = (ans)=>{
     
-        alert(ans)
+      Swal.fire({
+        title: `${ans}`,
+        showClass: {
+          popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp'
+        }
+      })
 
     }
     
