@@ -49,9 +49,11 @@
     .hero{
         grid-template-columns: auto;  
         height: auto;
+        margin-bottom: 50px;
     }
     .hero-content{
         align-items: center;
+        order: 2;
     }
     .title2{
         font-size: 1.9rem;
