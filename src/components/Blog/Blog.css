@@ -21,4 +21,5 @@
     
     min-height: 125px;
     align-items: center;
+    flex-wrap: wrap;
 }
